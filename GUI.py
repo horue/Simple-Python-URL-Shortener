@@ -11,9 +11,9 @@ def gui():
     quit = tkinter.Button(root, text="QUIT", command=root.destroy)
     quit.pack()
 
-    root.iconify() #Minimiza a tela
+    root.iconify()
     root.update()
-    root.deiconify() #Maximiza a tela
-    root.mainloop()  #loop principal, impede o código de seguir e permite capturar inputs
+    root.deiconify()
+    root.mainloop()  
 
 gui()
