@@ -1,0 +1,4 @@
+Finish the UI
+Make an website for the shortener
+Add an English translation
+Make possible to choose the leanguage
