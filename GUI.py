@@ -1,6 +1,4 @@
 import tkinter
-from tkinter import messagebox as mb
-from tkinter import ttk
 from short import tbs, short
 
 
