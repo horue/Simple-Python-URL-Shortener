@@ -1,5 +1,5 @@
 import tkinter
-from short import shorturl
+from short import tbs, short
 
 
 def gui():
