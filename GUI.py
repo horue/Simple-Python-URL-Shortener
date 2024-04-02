@@ -9,11 +9,11 @@ def gui():
 
 
     e1 = tkinter.Entry(root)
-    e1.bind('<Key>', tbs)
+    e1.bind('<Return>', short)
     e1.pack()
 
     label2 = tkinter.Label(root)
-    label2.bind('<Key>', short)
+    label2.bind('<Return>', short)
     label2.pack()
 
 
