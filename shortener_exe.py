@@ -8,7 +8,7 @@ from art import *
 
 s = gdshortener.ISGDShortener()
 n="Gostaria de encurtar outro link? (S/N) "
-text=text2art("Simple Python URL Shortener - By horue")
+text=text2art("Simple Python URL Shortener - By horue\nTerminal Version - 0.1")
 
 print()
 
