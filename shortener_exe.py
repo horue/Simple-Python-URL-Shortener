@@ -9,6 +9,8 @@ s = gdshortener.ISGDShortener()
 n="Gostaria de encurtar outro link? (S/N) "
 text=text2art(f"Simple URL Shortener\n Version {v} - By horue")
 
+
+
 def tbs():
     tbs.tobes=str(input("Qual link gostaria de encurtar? "))
     
