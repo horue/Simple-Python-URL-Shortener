@@ -9,12 +9,11 @@ def gui():
 
 
     e1 = tkinter.Entry(root)
-    e1.bind('<Return>', short)
+    e1.bind("<Return>", short)
     e1.pack()
 
-    label2 = tkinter.Label(root)
-    label2.bind('<Return>', short)
-    label2.pack()
+    res = tkinter.Label(root)
+    res.pack()
 
 
     quit = tkinter.Button(root, text="QUIT", command=root.destroy)
