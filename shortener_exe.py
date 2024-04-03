@@ -4,13 +4,9 @@ import pyperclip
 import re
 from art import *
 
-
-
 s = gdshortener.ISGDShortener()
 n="Gostaria de encurtar outro link? (S/N) "
 text=text2art("Simple Python URL Shortener - By horue")
-
-print()
 
 def tbs():
     tbs.tobes=str(input("Qual link gostaria de encurtar? "))
@@ -36,6 +32,7 @@ def novo():
         sys.exit()
     else:
         return
+
 
 print(text)        
 while True:
