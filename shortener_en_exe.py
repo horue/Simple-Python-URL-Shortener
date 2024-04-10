@@ -10,7 +10,6 @@ n="Would you like to shorten another link? (Y/N) "
 text=text2art(f"Simple URL Shortener\n Version {v} - By horue")
 
 
-
 def tbs():
     tbs.tobes=str(input("Enter the link to be shortened: "))
     
