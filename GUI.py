@@ -11,13 +11,13 @@ s = gdshortener.ISGDShortener()
 
 def short(e1):
     print(1)
-    link=e1.get
+    link=str(e1.get)
     final=(str(s.shorten(link)))
     url = r"[^,()'']+"
     correspondencia = re.search(url, final)
-    if correspondencia :
-        final_url = correspondencia.group()
-        pyperclip.copy(final_url)
+
+    final_url = correspondencia.group()
+    pyperclip.copy(final_url)
 
 
 def gui():
@@ -27,8 +27,11 @@ def gui():
 
 
     e1 = tkinter.Entry(root)
-    e1.bind("<Return>", short(e1))
     e1.pack()
+
+    b1 = tkinter.Button(root, text='Short URL!')
+    b1['command'] = lambda:short(e1)
+    b1.pack()
 
     res = tkinter.Label(root)
     res.pack()
